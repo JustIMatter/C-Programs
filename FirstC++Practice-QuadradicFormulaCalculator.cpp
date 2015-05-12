@@ -1,6 +1,7 @@
 // First C++ practice - Objective is to create a quadratic formula calculator.
 // (-b+-sqroot(b^2-4ac))/(2a)
 
+#include <cstdlib>
 #include <iostream>
 #include <cmath>
 
@@ -30,5 +31,6 @@ int main(){
         
     }
     
+    system("pause");
     return 0;
 }
