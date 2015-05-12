@@ -11,7 +11,7 @@ int main(){
     double real,imag,x1,x2,a,b,c,d;
 
 	cout << "Input values of a, b, and c." << endl;
-	cin >>a >>b >>c >> endl;
+	cin >>a >>b >>c;
     
     d = b*b - 4*a*c;
     
