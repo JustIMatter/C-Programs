@@ -1,3 +1,6 @@
+// Today's lesson/learning consisted of arrays, for loops, while loops, do while loops, 
+// random number generation, strings, and user input.
+
 // This is a comment
 
 /*
