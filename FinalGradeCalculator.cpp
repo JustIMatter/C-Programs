@@ -53,7 +53,7 @@ int main(){
 		cin >>minorG;
 
 		minorGSum += minorG;
-		cout << "Currently: " << i << " minor grade(s)." <<endl;
+		cout << "Currently: " << i << "/" << minorGrades << " minor grade(s)." <<endl;
 	}
 	minorG = minorGSum * minorW;
 
@@ -62,7 +62,7 @@ int main(){
 		cin >>quizG;
 
 		quizGSum += quizG;
-		cout << "Currently: " << i << " quiz grade(s)." <<endl;
+		cout << "Currently: " << i << "/" << quizGrades << " quiz grade(s)." <<endl;
 	}
 	quizG = quizGSum * quizW;
 
@@ -71,7 +71,7 @@ int main(){
 		cin >>majorG;
 
 		majorGSum += majorG;
-		cout << "Currently: " << i << " major grade(s)." <<endl;
+		cout << "Currently: " << i << "/" << majorGrades << " major grade(s)." <<endl;
 	}
 	majorG = majorGSum * majorW;
 
